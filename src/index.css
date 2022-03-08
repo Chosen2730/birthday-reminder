@@ -1,0 +1,70 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #FF8AAE;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.main_section{
+  padding: 2rem;
+  background-color: #fff;
+  display: inline-block;
+  margin: 3rem auto;
+  width: 50vw;
+  text-align: left;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px 1px grey;
+}
+.main_section h5{
+  font-size: 1.5rem;
+  font-weight: lighter;
+  text-transform: capitalize;
+}
+.clear_btn{
+  width: 100%;
+  text-align: center;
+  border: none;
+  padding: 1rem;
+  font-size: 20px;
+  background-color: #FF8AAE;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.birth{
+  display:flex;
+  align-items: center;
+  margin: 2rem 0;
+}
+.birth_cont img{
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.image{
+  margin-right: 1rem;
+}
+.name, .age{
+margin: 5px 0;
+}
+.name{
+  font-weight: bold;
+}
+.age{
+  color: #524A4E;
+  font-weight: lighter;
+}
+@media (max-width: 700px){
+  .main_section{
+    width: 80vw;
+  } 
+}
+@media (max-width: 425px){
+  .main_section{
+    width: 90vw;
+  } 
+}
